@@ -224,10 +224,10 @@ def main():
     st.set_page_config(page_title="Pitching KPI Dashboard", layout="wide")
 
     # Add the main logo using streamlit_extras
-    add_logo("/Users/rohitkrishnan/Desktop/Driveline/logo.png", height=65)
+    add_logo("logo.png", height=65)
 
     # Add additional images to the sidebar
-    st.sidebar.image("/Users/rohitkrishnan/Desktop/Driveline/logo.png", caption="Chicks hate the long ball")
+    st.sidebar.image("logo.png", caption="Chicks hate the long ball")
     
     st.sidebar.title("Navigation")
     
